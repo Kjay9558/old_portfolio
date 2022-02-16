@@ -1,0 +1,30 @@
+
+  .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    img{
+      width: 67px;
+    }
+
+    img:hover{
+      filter: invert(27%)
+      sepia(51%)
+      saturate(2878%)
+      hue-rotate(346deg)
+      brightness(104%)
+      contrast(97%);
+    }
+  }
+
+
+@media only screen and (min-width: 1080px){
+  .icons{
+    flex-direction: column;
+  }
+
+  }
+
+
+

@@ -6,10 +6,14 @@ import {MatCardModule} from '@angular/material/card';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { SocialComponent } from './social/social.component';
+import { DividerComponent } from './divider/divider.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SocialComponent,
+    DividerComponent
   ],
   imports: [
     BrowserModule,

@@ -2,11 +2,6 @@
   height: 100%;
   width: 100%;
 
-  p{
-    color: var(--primary-color);
-    text-align: center;
-  }
-
   .topDiv{
     display: flex;
     height: 82.5px;
@@ -28,33 +23,13 @@
     height: 100%;
     width: 100%;
 
-    .socialDiv{
+    app-social{
       display: flex;
       flex-direction: column;
       justify-content: center;
       margin-top: 10px;
       text-align: center;
-
-      .icons{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-
-        img{
-          width: 67px;
-        }
-
-        img:hover{
-          filter: invert(27%)
-                  sepia(51%)
-                  saturate(2878%)
-                  hue-rotate(346deg)
-                  brightness(104%)
-                  contrast(97%);
-        }
-      }
     }
-
     .mainContentDiv{
       background-color: var(--background-secondary);
       display: flex;
@@ -64,12 +39,7 @@
       padding: 10px;
       padding-top: 20px;
 
-      hr{
-        background-color: var(--secondary-color);
-        height: 1px;
-        border: none;
-        width: 100%;
-      }
+
 
       .projectsDiv{
         display: flex;
@@ -94,19 +64,17 @@
       }
     }
   }
+}
 
   @media only screen and (min-width: 1080px){
 
     .contentArea{
       flex-direction: row;
 
-      .socialDiv{
+      app-social {
         justify-content: flex-start;
         width: 15%;
         padding-top: 5%;
-
-        .icons{flex-direction: column;}
-
       }
 
     }
@@ -114,7 +82,7 @@
     .topDiv{
       position: relative;
     }
-
-
   }
-}
+
+
+

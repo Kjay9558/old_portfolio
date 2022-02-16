@@ -3,46 +3,21 @@
     <h1 class="title">Portfolio</h1>
   </div>
   <div class="contentArea">
-    <section class="socialDiv">
-      <p>
-        Hello, my name is <br> Lisa Zimmermann
-      </p>
-      <div class="icons">
-        <span>
-          <a href="https://github.com/Kjay9558">
-            <img src="../assets/github_icon.svg" alt="github icon">
-          </a>
-          <a href="https://github.com/Kjay9558">
-            <img src="../assets/github_icon.svg" alt="github icon">
-          </a>
-        </span>
-      </div>
-    </section>
+    <app-social></app-social>
+
     <section class="mainContentDiv">
       <div class="summaryDiv">
-        <div style="display: flex; flex-direction: row;">
-          <hr>
-          <p style="font-size: large;">Summary</p>
-          <hr>
-        </div>
+        <app-divider text="Summary"></app-divider>
         <p>
           This is my summary.
         </p>
       </div>
       <div class="resumeDiv">
-        <div style="display: flex; flex-direction: row;">
-          <hr>
-          <p style="font-size: large;">Resume</p>
-          <hr>
-        </div>
+        <app-divider text="Resume"></app-divider>
         <p>Resume goes here.</p>
       </div>
       <div class="projectDiv">
-        <div style="display: flex; flex-direction: row;">
-          <hr>
-          <p style="font-size: large;">Projects</p>
-          <hr>
-        </div>
+        <app-divider text="Projects"></app-divider>
       </div>
       <div class="projectsDiv">
         <mat-card class="project">
