@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { SocialComponent } from './social/social.component';
 import { DividerComponent } from './divider/divider.component';
+import { MainContentComponent } from './main-content/main-content.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SocialComponent,
-    DividerComponent
+    DividerComponent,
+    MainContentComponent
   ],
   imports: [
     BrowserModule,

@@ -30,7 +30,7 @@
       margin-top: 10px;
       text-align: center;
     }
-    .mainContentDiv{
+    app-main-content{
       background-color: var(--background-secondary);
       display: flex;
       flex-direction: column;
@@ -38,30 +38,6 @@
       height: auto;
       padding: 10px;
       padding-top: 20px;
-
-
-
-      .projectsDiv{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        .project{
-          display: flex;
-          flex-direction: column;
-          margin: 5px;
-          width: 200px;
-          height: auto;
-          background-color: var(--secondary-color);
-          color: var(--primary-color);
-
-          button{
-            background-color: var(--background-main);
-            color: var(--primary-color);
-          }
-        }
-      }
     }
   }
 }
