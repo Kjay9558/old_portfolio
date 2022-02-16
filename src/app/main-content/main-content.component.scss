@@ -1,0 +1,21 @@
+.projectsDiv{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .project{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 200px;
+    height: auto;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+
+    button{
+      background-color: var(--background-main);
+      color: var(--primary-color);
+    }
+  }
+}

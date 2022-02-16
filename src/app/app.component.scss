@@ -19,40 +19,36 @@
 
   .contentArea{
     display: flex;
-    flex-direction: column;
+    //flex-direction: column;
     height: 100%;
     width: 100%;
 
     app-social{
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
       margin-top: 10px;
       text-align: center;
+      padding-left: 8px;
     }
     app-main-content{
       background-color: var(--background-secondary);
       display: flex;
       flex-direction: column;
-      width: 100%;
+      width: 90%;
       height: auto;
       padding: 10px;
       padding-top: 20px;
+      margin: 10px
     }
   }
 }
 
-  @media only screen and (min-width: 1080px){
+  @media only screen and (max-width: 600px){
 
     .contentArea{
-      flex-direction: row;
-
-      app-social {
-        justify-content: flex-start;
-        width: 15%;
-        padding-top: 5%;
-      }
-
+      flex-direction: column;
+      
     }
 
     .topDiv{
