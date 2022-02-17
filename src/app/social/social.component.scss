@@ -5,25 +5,19 @@
     justify-content: space-evenly;
 
     img{
-      width: 67px;
+      width: 65px;
     }
 
     img:hover{
-      filter: invert(27%)
-      sepia(51%)
-      saturate(2878%)
-      hue-rotate(346deg)
-      brightness(104%)
-      contrast(97%);
+      filter: invert(1) sepia(1) saturate(146) hue-rotate(274deg);
     }
   }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 600px){
   .icons{
     flex-direction: column;
   }
-
   }
 
 

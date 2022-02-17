@@ -1,0 +1,41 @@
+.container{
+  display: flex;
+  justify-content: center;
+}
+a{
+  display: flex;
+  justify-content: center;
+}
+
+
+.kreis {
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .mat-icon{
+    color: var(--background-main);
+    font-size: 56px;
+    width: auto;
+    height: auto;
+    display: flex;
+    vertical-align: middle;
+  }
+  .mat-icon:hover{
+    color: var(--background-main);
+  }
+}
+
+
+.kreis:hover{
+  color: var(--secondary-color);
+  filter: invert(1) sepia(1) saturate(146) hue-rotate(274deg);
+  fill: var(--secondary-color);
+}
+
+
+

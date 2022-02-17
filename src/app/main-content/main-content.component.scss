@@ -19,3 +19,29 @@
     }
   }
 }
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .contentCard{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: auto;
+    height: fit-content;
+    background-color: var(--background-main);
+
+
+    button{
+      background-color: var(--background-main);
+      color: var(--primary-color);
+    }
+  }
+}
+@media only screen and (max-width: 600px){
+
+  .contentArea{
+    flex-direction: column;
+  }}
